@@ -4,17 +4,7 @@
 //
 
 export const colorCode = (color) => {
-    let numberCode;
-
-    COLORS.some(cur => {
-        if (cur === color) {
-            numberCode = COLORS.indexOf(cur);
-
-            return true;
-        }
-    });
-
-    return numberCode;
+    return COLORS.indexOf(color);
 //   throw new Error("Remove this statement and implement this function");
 };
 
