@@ -3,10 +3,10 @@
 // convenience to get you started writing code faster.
 //
 
-export const encode = (str) => {
+export const encode = (str = '') => {
   throw new Error("Remove this statement and implement this function");
 };
 
-export const decode = (str) => {
+export const decode = (str = '') => {
   throw new Error("Remove this statement and implement this function");
 };
